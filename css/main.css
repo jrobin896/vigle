@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html,body,.container{
+	width: 100%;
+	height: 100%;
+}
+
+section{
+	padding-bottom: 40px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	opacity: 0.65;
+}
+
+.cover{
+	height: 100%;
+	background-image: url("../images/cover.jpg");
+}
+
+.navbar{
+	display: flex;
+	height:50px;
+}
+
+nav .brand{
+	width:30%;
+	padding-left: 50px;
+	line-height: 50px;
+}
+
+nav .nav{
+	width: 70%;
+}
+
+nav .brand h1{
+	font-family: 'Delius Unicase', cursive;
+}
+
+nav .nav ul{
+	margin-right: 50px;
+	list-style: none;
+	float: right;
+}
+
+nav .nav ul li{
+	display: inline;
+	margin: 0 15px;
+	line-height: 50px;
+}
+
+nav .nav ul li a{
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #000;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	border-bottom:1px solid #000;
+	transition: all 0.5s;	
+}
+
+nav .nav ul li a:hover{
+	background-color: #000;
+	color:#fff;
+}
+
+nav .nav ul li span{
+	font-weight: 900;
+}
+
+nav .nav ul li:last-child a{
+	padding: 8px 12px;
+	background-color: #000;
+	color: #fff;
+	border:1px solid #000;
+	transition: all 0.5s;
+}
+
+nav .nav ul li:last-child a:hover{
+	background-color: transparent;
+	color: #000;
+	border:1px solid #000;
+}
+
+.content{
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+}
+
+.content span{
+	padding: 10px 25px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-size: 40px;
+	font-family: 'Bree Serif', serif;
+	color:#fff;
+	background-color: #111;
+	border:1px solid #111; 
+}
+
+.small-intro{
+	background-color: #ededed;
+}
+
+.example-story{
+	background-image: url("../images/example-story.jpg");
+}
+
+.usefull-info{
+	background-color: #ededed;
+}
+
+.contact-info{
+	background-image: url("../images/contact-us.jpg");
+	padding-bottom: 0;
+}
+
+.section-heading{
+	padding:20px 0;
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'Lato', sans-serif;
+}
+
+.example-story{
+	color: #fff;
+}
+
+.contact-info h1{
+	color: #fff;
+}
+
+span.brand-name{
+	font-family: 'Delius Unicase', cursive;
+}
+
+section p{
+	margin:auto;
+	padding: 30px 225px;
+	text-align: center;
+	font-size: 18px;
+}
+
+form{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.form-element input, .form-element textarea{
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	width: 40%;
+	height: 50px;
+	background-color: #111;
+	opacity: 0.65;
+	color: #fff;
+	border:3px solid #fff;
+}
+
+.form-element textarea{
+	height: 250px;
+	background-color: #111;
+	opacity: 0.65;
+	font-family: sans-serif;
+}
+
+form input[type="submit"]{
+	margin-top: 5px;
+	padding: 15px 25px;
+	background-color: #111;
+	opacity: 0.65;
+	color: #fff;
+	border:3px solid #fff;
+	transition: all 0.5s;
+}
+
+form input[type="submit"]:hover{
+	background-color: #0000ff;
+	opacity: 0.65;
+}
+
+.form-element input:focus, .form-element textarea:focus{
+	border:3px solid #0000ff;
+}
+
+.footer{
+	padding: 25px;
+	width:100%;
+	background-color: #111;
+}
+
+.footer-contents{
+	display: flex;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	color: #fff;
+}
+
+.footer-lists{
+	width: 20%;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+
+.footer-lists ul{
+	list-style: none;
+}
+
+.footer-lists span{
+	display: inline-block;
+	padding: 10px 10px;
+	background-color: #000;
+	border:1px solid #000;
+}
