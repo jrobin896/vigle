@@ -16,12 +16,13 @@ section{
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	opacity: 0.65;
+	opacity: 0.9;
 }
 
 .cover{
 	height: 100%;
-	background-image: url("../images/cover.jpg");
+	background-image: url("../images/ttmp.jpg");
+	opacity: 1;
 }
 
 .navbar{
@@ -41,6 +42,7 @@ nav .nav{
 
 nav .brand h1{
 	font-family: 'Delius Unicase', cursive;
+	font-size: 1.8em;
 }
 
 nav .nav ul{
@@ -56,36 +58,42 @@ nav .nav ul li{
 }
 
 nav .nav ul li a{
-	padding: 5px 10px;
+	padding: 10px 10px;
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	font-family: 'Roboto Slab', serif;
+	font-size: 1em;
 	font-weight: 700;
-	border-bottom:1px solid #000;
+	border:3px solid transparent;
+	border-bottom:3px solid #fff;
 	transition: all 0.5s;	
 }
 
 nav .nav ul li a:hover{
 	background-color: #000;
 	color:#fff;
+	border:3px solid #0000ff;
+	opacity: 0.65;
 }
 
 nav .nav ul li span{
+	color: #fff;
 	font-weight: 900;
 }
 
 nav .nav ul li:last-child a{
-	padding: 8px 12px;
-	background-color: #000;
-	color: #fff;
-	border:1px solid #000;
+	padding: 10px 12px;
+	background-color: #fff;
+	color: #000;
+	border:3px solid #fff;
 	transition: all 0.5s;
+	opacity: 0.65;
 }
 
 nav .nav ul li:last-child a:hover{
 	background-color: transparent;
 	color: #000;
-	border:1px solid #000;
+	border:3px solid #0000ff;
 }
 
 .content{
@@ -105,6 +113,7 @@ nav .nav ul li:last-child a:hover{
 	color:#fff;
 	background-color: #111;
 	border:1px solid #111; 
+	opacity: 0.65;
 }
 
 .small-intro{
@@ -145,7 +154,7 @@ span.brand-name{
 
 section p{
 	margin:auto;
-	padding: 30px 225px;
+	padding: 30px 15%;
 	text-align: center;
 	font-size: 18px;
 }
@@ -164,13 +173,12 @@ form{
 	background-color: #111;
 	opacity: 0.65;
 	color: #fff;
+	font-size: 0.9em;
 	border:3px solid #fff;
 }
 
 .form-element textarea{
 	height: 250px;
-	background-color: #111;
-	opacity: 0.65;
 	font-family: sans-serif;
 }
 
@@ -201,7 +209,7 @@ form input[type="submit"]:hover{
 
 .footer-contents{
 	display: flex;
-	width: 70%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	justify-content: center;
@@ -209,16 +217,22 @@ form input[type="submit"]:hover{
 }
 
 .footer-lists{
-	width: 20%;
-	margin-left: 10px;
-	margin-right: 10px;	
+	width: 25%;
+	margin-left: 20px;
+	margin-right: 20px;	
+	text-align: center;
+}
+
+.footer-lists h4{
+	padding: 15px;
+	text-decoration: underline;
 }
 
 .footer-lists ul{
 	list-style: none;
 }
 
-.footer-lists span{
+.footer-lists > span{
 	display: inline-block;
 	padding: 10px 10px;
 	background-color: #000;
