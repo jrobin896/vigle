@@ -161,13 +161,14 @@ section p{
 	margin:auto;
 	padding-bottom: 20px;
 	padding-left: 10%;
-	padding-right: 5%;
+	padding-right: 10%;
 	font-size: 120%;
 	font-family: 'Open Sans', sans-serif;
 }
 
 .small-intro p{
 	padding-left: 5%;
+	padding-bottom: 5%;
 	text-align: center;
 }
 
