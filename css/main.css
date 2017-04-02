@@ -10,7 +10,8 @@ html,body,.container{
 }
 
 section{
-	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-bottom: 60px;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -20,6 +21,7 @@ section{
 }
 
 .cover{
+	padding:10px 0;
 	height: 100%;
 	background-image: url("../images/ttmp.jpg");
 	opacity: 1;
@@ -41,6 +43,7 @@ nav .nav{
 }
 
 nav .brand h1{
+	color: #585858 ;
 	font-family: 'Delius Unicase', cursive;
 	font-size: 1.8em;
 }
@@ -58,21 +61,26 @@ nav .nav ul li{
 }
 
 nav .nav ul li a{
-	padding: 10px 10px;
+	padding: 10px 20px;
 	text-decoration: none;
 	color: #fff;
 	font-family: 'Roboto Slab', serif;
-	font-size: 1em;
+	font-size: 0.8em;
 	font-weight: 700;
-	border:3px solid transparent;
-	border-bottom:3px solid #fff;
+	border:2px solid transparent;
+	border-bottom:2px solid #fff;
 	transition: all 0.5s;	
 }
 
+nav .nav ul li a:nth-child(1), nav .nav ul li a:nth-child(2){
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
 nav .nav ul li a:hover{
-	background-color: #000;
+	background-color: #303030;
 	color:#fff;
-	border:3px solid #0000ff;
+	border-bottom:2px solid #0000ff;
 	opacity: 0.65;
 }
 
@@ -82,10 +90,10 @@ nav .nav ul li span{
 }
 
 nav .nav ul li:last-child a{
-	padding: 10px 12px;
+	padding: 10px 20px;
 	background-color: #fff;
 	color: #000;
-	border:3px solid #fff;
+	border:2px solid #fff;
 	transition: all 0.5s;
 	opacity: 0.65;
 }
@@ -93,13 +101,13 @@ nav .nav ul li:last-child a{
 nav .nav ul li:last-child a:hover{
 	background-color: transparent;
 	color: #000;
-	border:3px solid #0000ff;
+	border:2px solid #0000ff;
 }
 
 .content{
-	position: absolute;
+	position: relative;
 	left: 0;
-	top: 40%;
+	top: 38%;
 	width: 100%;
 	text-align: center;
 }
@@ -122,6 +130,7 @@ nav .nav ul li:last-child a:hover{
 
 .example-story{
 	background-image: url("../images/example-story.jpg");
+	color: #fff;
 }
 
 .usefull-info{
@@ -130,18 +139,13 @@ nav .nav ul li:last-child a:hover{
 
 .contact-info{
 	background-image: url("../images/contact-us.jpg");
-	padding-bottom: 0;
 }
 
 .section-heading{
-	padding:20px 0;
+	padding-bottom: 40px;
 	text-align: center;
 	font-size: 2.5em;
 	font-family: 'Lato', sans-serif;
-}
-
-.example-story{
-	color: #fff;
 }
 
 .contact-info h1{
@@ -149,19 +153,25 @@ nav .nav ul li:last-child a:hover{
 }
 
 span.brand-name{
+	color: #585858;	
 	font-family: 'Delius Unicase', cursive;
 }
 
 section p{
 	margin:auto;
-	padding: 30px 10%;
+	padding-bottom: 20px;
+	padding-left: 10%;
+	padding-right: 5%;
+	font-size: 120%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.small-intro p{
+	padding-left: 5%;
 	text-align: center;
-	font-size: 18px;
 }
 
 form{
-	margin-top: 50px;
-	margin-bottom: 50px;
 	text-align: center;
 }
 
@@ -173,6 +183,7 @@ form{
 	background-color: #111;
 	opacity: 0.65;
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 0.9em;
 	border:3px solid #fff;
 }
@@ -184,7 +195,9 @@ form{
 
 form input[type="submit"]{
 	margin-top: 5px;
-	padding: 15px 25px;
+	padding: 15px 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
 	background-color: #111;
 	opacity: 0.65;
 	color: #fff;
@@ -204,27 +217,26 @@ form input[type="submit"]:hover{
 .footer{
 	padding: 25px;
 	width:100%;
-	background-color: #111;
+	background-color: #303030;
 }
 
 .footer-contents{
 	display: flex;
+	padding-bottom: 40px;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	justify-content: center;
 	color: #fff;
 }
 
 .footer-lists{
 	width: 25%;
-	margin-left: 20px;
-	margin-right: 20px;	
 	text-align: center;
 }
 
 .footer-lists h4{
 	padding: 15px;
+	font-family: 'Open Sans', sans-serif;
 	text-decoration: underline;
 }
 
@@ -232,9 +244,26 @@ form input[type="submit"]:hover{
 	list-style: none;
 }
 
+.footer-lists ul li{
+	font-family: 'Open Sans', sans-serif;
+}
+
 .footer-lists > span{
 	display: inline-block;
 	padding: 10px 10px;
-	background-color: #000;
-	border:1px solid #000;
+	margin:2px 2px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #181818;
+}
+
+.copy_right{
+	width: 80%;
+	margin: 0 auto;
+	border-top: 1px solid #fff;
+}
+
+.copy_right p{
+	padding-top: 25px;
+	color:#fff;
+	text-align: center;
 }

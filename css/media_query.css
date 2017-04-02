@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1200px){
+	nav .brand{
+		padding-left: 30px;
+	}
+
+	nav .brand h1{
+		font-size: 1.3em;
+	}
+
+	nav .nav ul{
+		margin-right: 30px;
+	}
+
+	nav .nav ul li{
+		margin: 0 8px;
+	}
+
+	.form-element input, .form-element textarea{
+		width: 50%;
+	}
+
+}
+
+@media only screen and (max-width: 920px){
+	
+	
+}
