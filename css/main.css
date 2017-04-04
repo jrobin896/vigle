@@ -67,8 +67,7 @@ nav .nav ul li a{
 	font-family: 'Roboto Slab', serif;
 	font-size: 0.8em;
 	font-weight: 700;
-	border:2px solid transparent;
-	border-bottom:2px solid #fff;
+	border-bottom:3px solid transparent;
 	transition: all 0.5s;	
 }
 
@@ -80,7 +79,7 @@ nav .nav ul li a:nth-child(1), nav .nav ul li a:nth-child(2){
 nav .nav ul li a:hover{
 	background-color: #303030;
 	color:#fff;
-	border-bottom:2px solid #0000ff;
+	border-bottom:3px solid #0000ff;
 	opacity: 0.65;
 }
 
