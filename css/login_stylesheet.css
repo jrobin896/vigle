@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html,body,.container{
+	width: 100%;
+	height: 100%;
+}
+
+.container{
+	background-image: url("../images/login.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.login-heading{
+	padding-bottom: 40px;
+	color: #fff;
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'Lato', sans-serif;
+}
+
+.login_box{
+	position: relative;
+	top: 22.5%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	width: 40%;
+	background-color: #111;
+	border:10px solid #000;
+	opacity: 0.65;
+}
+
+form{
+	text-align: center;
+}
+
+.form-element input{
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	width: 60%;
+	height: 50px;
+	background-color: #111;
+	opacity: 0.65;
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	border:3px solid #fff;
+}
+
+.form-element input:focus{
+	border:3px solid #0000ff;
+	opacity: 1;
+}
+
+.form-element input[name="username"]{
+	text-transform: uppercase;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    text-transform: none;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-transform: none;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-transform: none;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-transform: none;
+}
+
+form input[type="submit"]{
+	margin-top: 5px;
+	padding: 15px 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	background-color: #111;
+	opacity: 0.65;
+	color: #fff;
+	border:3px solid #fff;
+	transition: all 0.5s;
+}
+
+form input[type="submit"]:hover, form input[type="submit"]:focus{
+	background-color: #0000ff;
+}
+
+.non-functional-links{
+	display: flex;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.non-functional-links span{
+	display: block;
+}
+
+.non-functional-links span:first-child{
+	width: 50%;
+	text-align: left;
+}
+
+.non-functional-links span:last-child{
+	width: 50%;
+	text-align: right;
+}
+
+.non-functional-links span a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	font-size: 0.8em;
+	font-weight: 700;
+	border-bottom:3px solid transparent;
+	opacity: 0.65;
+	transition: all 0.5s;
+}
+
+.non-functional-links span:last-child a{
+	padding: 10px 35px;
+}
+
+.non-functional-links span a:hover{
+	background-color: #303030;
+	color:#fff;
+	border-bottom:3px solid #0000ff;
+}

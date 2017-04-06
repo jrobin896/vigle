@@ -23,7 +23,7 @@ section{
 .cover{
 	padding:10px 0;
 	height: 100%;
-	background-image: url("../images/ttmp.jpg");
+	background-image: url("../images/cover.jpg");
 	opacity: 1;
 }
 
@@ -205,9 +205,8 @@ form input[type="submit"]{
 	transition: all 0.5s;
 }
 
-form input[type="submit"]:hover{
+form input[type="submit"]:hover, form input[type="submit"]:focus{
 	background-color: #0000ff;
-	opacity: 0.65;
 }
 
 .form-element input:focus, .form-element textarea:focus{
