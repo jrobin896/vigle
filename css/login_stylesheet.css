@@ -90,8 +90,12 @@ form input[type="submit"]{
 	transition: all 0.5s;
 }
 
-form input[type="submit"]:hover, form input[type="submit"]:focus{
+form input[type="submit"]:hover{
 	background-color: #0000ff;
+}
+
+form input[type="submit"]:focus{
+	border-color: #0000ff;	
 }
 
 .non-functional-links{
