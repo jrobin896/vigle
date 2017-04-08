@@ -34,10 +34,6 @@
 }
 
 @media only screen and (max-width: 720px){
-	section{
-		background-attachment: scroll;
-	}
-
 	.form-element input, .form-element textarea{
 		width: 80%;
 	}	
