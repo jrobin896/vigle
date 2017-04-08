@@ -1,27 +1,57 @@
 @media only screen and (max-width: 1200px){
-	nav .brand{
-		padding-left: 30px;
-	}
-
-	nav .brand h1{
-		font-size: 1.3em;
-	}
-
-	nav .nav ul{
-		margin-right: 30px;
-	}
-
-	nav .nav ul li{
-		margin: 0 8px;
-	}
-
 	.form-element input, .form-element textarea{
 		width: 50%;
 	}
+}
+
+@media only screen and (max-width: 1000px){
+	nav .nav ul li a{
+		padding: 10px 15px;
+	}
+
+	nav .nav ul li a:nth-child(1), nav .nav ul li a:nth-child(2){
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	section p{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.form-element input, .form-element textarea{
+		width: 60%;
+	}
+
+	.footer-lists{
+		width: 50%;
+	}
+	/* have to insert handburger form of navigation*/
+}
+
+@media only screen and (max-width: 720px){
+	.form-element input, .form-element textarea{
+		width: 80%;
+	}	
 
 }
 
-@media only screen and (max-width: 920px){
-	
-	
+@media only screen and (max-width: 520px){
+	.content span{
+		font-size: 2.5em;
+	}
+
+	.form-element input, .form-element textarea{
+		width: 90%;
+	}
+
+	.form-element textarea{
+		height: 200px;
+	}
+
+	.footer-lists{
+		width: 100%;
+		height: 180px;
+	}
+
 }
