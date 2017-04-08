@@ -45,9 +45,8 @@
 }
 
 @media only screen and (max-width: 520px){
-	section{
-		background-attachment: scroll;
-		max-height: 100%;
+	.small-intro, .example-story, .usefull-info{
+		max-height: 100vh;
 		overflow: hidden;
 	}
 	
