@@ -14,6 +14,10 @@
 		padding-right: 15px;
 	}
 
+	section{
+		background-attachment: scroll;
+	}
+
 	section p{
 		padding-left: 5%;
 		padding-right: 5%;
@@ -38,7 +42,7 @@
 
 @media only screen and (max-width: 520px){
 	.content span{
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 
 	.form-element input, .form-element textarea{
