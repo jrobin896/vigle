@@ -47,11 +47,16 @@
 @media only screen and (max-width: 520px){
 	section{
 		background-attachment: scroll;
-		background-position: 0 0;
+		max-height: 100%;
+		overflow: hidden;
 	}
 	
 	.content span{
 		font-size: 2em;
+	}
+
+	section p{
+		font-size: 1em;
 	}
 
 	.form-element input, .form-element textarea{
